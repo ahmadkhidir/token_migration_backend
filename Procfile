@@ -1,0 +1,1 @@
+web: gunicorn token_migration_backend.wsgi --log-file -
