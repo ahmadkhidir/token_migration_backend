@@ -28,7 +28,8 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     'localhost',
-    '192.168.43.121'
+    '192.168.43.121',
+    'token-migration-backend.herokuapp.com'
 ]
 CORS_ALLOWED_ORIGINS = [
     "http://127.0.0.1:3000",
