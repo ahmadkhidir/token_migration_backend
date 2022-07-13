@@ -35,7 +35,7 @@ CORS_ALLOWED_ORIGINS = [
     "http://127.0.0.1:3000",
     "http://localhost:3000",
     "http://192.168.43.121:3000",
-    # 'https://tailorleron.netlify.app',
+    'https://token-migration.herokuapp.com',
     # 'https://www.tailorleron.com'
 ]
 
