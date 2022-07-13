@@ -2,10 +2,6 @@ from requests import Session
 from requests.exceptions import ConnectionError, Timeout, TooManyRedirects
 import json
 import csv
-import logging
-import boto3
-from botocore.exceptions import ClientError
-import os
 from django.core.files.base import ContentFile
 from v1.models import DataModel
 from django.utils import timezone
@@ -81,52 +77,6 @@ def data_to_csv_dj(data):
     crypto.write(q)
     crypto.close()
     return crypto
-
-
-class AWS_S3():
-    def __init__(self):
-        self.s3 = boto3.Session(
-            'AKIA355VVZK6ZQST3JIY',
-            'HokjFlcTQ9K3/O+CDfCa1IYsMgtWh8zqNYXERa9B'
-        )
-
-    def upload_file(self,
-                    file_name,
-                    bucket='tokenmigration',
-                    object_name=None):
-        """Upload a file to an S3 bucket
-
-        :param file_name: File to upload
-        :param bucket: Bucket to upload to
-        :param object_name: S3 object name.
-        If not specified then file_name is used.
-        :return: True if file was uploaded, else False
-        """
-
-        # If S3 object_name was not specified, use file_name
-        if object_name is None:
-            object_name = os.path.basename(file_name)
-
-        # Upload the file
-        s3_client = self.s3.client('s3')
-        try:
-            s3_client.upload_file(file_name, bucket, object_name)
-        except ClientError as e:
-            logging.error(e)
-            return False
-        return True
-
-    def download_file(self,
-                      file_name='crypto.csv',
-                      bucket='tokenmigration',
-                      object_name='crypto.csv'):
-        s3_client = self.s3.client('s3')
-        try:
-            s3_client.download_file(bucket, object_name, file_name)
-        except ClientError as e:
-            logging.error(e)
-            return False
-        return file_name
 
 
 def csv_to_data(data):
