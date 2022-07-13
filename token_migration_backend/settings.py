@@ -24,7 +24,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-ow*w_)5721n7(u!ioo91alxgx3de42j66%il&burxx_b7yvuvb'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = [
     'localhost',
@@ -90,7 +90,7 @@ WSGI_APPLICATION = 'token_migration_backend.wsgi.application'
 
 DATABASES = {}
 
-if DEBUG:
+if not DEBUG:
     DATABASES['default'] = {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': BASE_DIR / 'db.sqlite3'
