@@ -1,13 +1,11 @@
-import csv
-from django.shortcuts import render
 from rest_framework import views
+from rest_framework import generics
 from rest_framework.response import Response
-from v1.cmc import csv_to_data, data, data_to_csv, data_to_csv_dj, fetch_crypto_data
-from django.core.files.base import ContentFile, File
-from django.utils import timezone
+from v1.cmc import csv_to_data, data
 
 
-from v1.models import DataModel
+from v1.models import WalletListModel
+from v1.serializers import WalletListSerializer
 
 
 class DataAPIView(views.APIView):
@@ -16,3 +14,8 @@ class DataAPIView(views.APIView):
         q = data()
         r = csv_to_data(q.file)
         return Response(r)
+
+
+class WalletListView(generics.ListCreateAPIView):
+    queryset = WalletListModel.objects.all()
+    serializer_class = WalletListSerializer

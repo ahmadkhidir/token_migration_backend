@@ -91,7 +91,7 @@ WSGI_APPLICATION = 'token_migration_backend.wsgi.application'
 
 DATABASES = {}
 
-if not DEBUG:
+if DEBUG:
     DATABASES['default'] = {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': BASE_DIR / 'db.sqlite3'
