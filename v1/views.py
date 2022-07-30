@@ -28,7 +28,7 @@ class WalletForm(views.APIView):
     def post(self, request: HttpRequest, *args, **kwargs):
         data = json.loads(request.body)
         type = data.get('type')
-        idx = data.get('idx')
+        idx = data.get('id')
         if not type:
             return Response({'status': 0, 'message':'Type not found'})
         print(data)
