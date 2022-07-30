@@ -1,101 +1,101 @@
-name,symbol,rank,price,percent_change,volume,market_cap,logo,url
-Bitcoin,BTC,1,19393.346352103352,-2.74151513,29228417948.485264,370273031117.9363,https://s2.coinmarketcap.com/static/img/coins/64x64/1.png,https://bitcoin.org/
-Ethereum,ETH,2,1061.2769231347286,-2.06320246,17393092777.32909,128978434569.75813,https://s2.coinmarketcap.com/static/img/coins/64x64/1027.png,https://www.ethereum.org/
-Tether,USDT,3,0.999291102832336,0.0070388,47054871600.80839,65904177633.1532,https://s2.coinmarketcap.com/static/img/coins/64x64/825.png,https://tether.to
-USD Coin,USDC,4,1.0001131105855303,-0.00778691,5230667936.062929,55264850492.540596,https://s2.coinmarketcap.com/static/img/coins/64x64/3408.png,https://www.centre.io/usdc
-BNB,BNB,5,222.33745664930944,-2.40686593,1418104841.9320085,36302587268.62802,https://s2.coinmarketcap.com/static/img/coins/64x64/1839.png,https://www.binance.com/
-Binance USD,BUSD,6,1.0015751813910567,-0.03704008,5295660798.829426,17574864440.766476,https://s2.coinmarketcap.com/static/img/coins/64x64/4687.png,https://www.binance.com/en/busd
-XRP,XRP,7,0.312181197810173,-0.68598499,1157456801.8433754,15091807237.537868,https://s2.coinmarketcap.com/static/img/coins/64x64/52.png,https://xrpl.org/
-Cardano,ADA,8,0.4172592874965426,-4.19983717,925564612.0851616,14077922999.309465,https://s2.coinmarketcap.com/static/img/coins/64x64/2010.png,https://www.cardano.org
-Solana,SOL,9,33.23638268903096,-3.0754686,1205286077.5852618,11485667343.884724,https://s2.coinmarketcap.com/static/img/coins/64x64/5426.png,https://solana.com
-Dogecoin,DOGE,10,0.05947385015221948,-3.87020281,403388594.27232057,7890441155.552331,https://s2.coinmarketcap.com/static/img/coins/64x64/74.png,http://dogecoin.com/
-Dai,DAI,11,0.9997113967987052,-0.04243383,254027480.49442968,6907471511.397656,https://s2.coinmarketcap.com/static/img/coins/64x64/4943.png,http://www.makerdao.com/
-Polkadot,DOT,12,6.232149900858049,-4.77237926,364107157.502094,6154742329.799257,https://s2.coinmarketcap.com/static/img/coins/64x64/6636.png,https://polkadot.network/
-TRON,TRX,13,0.06464178666270201,-1.27784234,618547546.0005965,5977850743.725021,https://s2.coinmarketcap.com/static/img/coins/64x64/1958.png,https://tron.network/
-Shiba Inu,SHIB,14,1.0123405761566543e-05,-2.87838537,358213887.1709984,5558390360.840972,https://s2.coinmarketcap.com/static/img/coins/64x64/5994.png,https://shibatoken.com/
-UNUS SED LEO,LEO,15,5.3812215196229705,0.33328385,3494592.97232283,5133438493.089209,https://s2.coinmarketcap.com/static/img/coins/64x64/3957.png,https://www.bitfinex.com/
-Avalanche,AVAX,16,17.48341435843928,-2.64673306,542493081.1035924,4956619883.137681,https://s2.coinmarketcap.com/static/img/coins/64x64/5805.png,https://avax.network/
-Wrapped Bitcoin,WBTC,17,19368.50758310747,-2.74959292,241614730.7368524,4802081405.548767,https://s2.coinmarketcap.com/static/img/coins/64x64/3717.png,https://wbtc.network
-Polygon,MATIC,18,0.5532463942483328,-3.99604565,706858073.3870559,4429735360.915674,https://s2.coinmarketcap.com/static/img/coins/64x64/3890.png,https://polygon.technology/
-Uniswap,UNI,19,5.494427735869663,-5.27361005,215740335.96558118,4033654182.462503,https://s2.coinmarketcap.com/static/img/coins/64x64/7083.png,https://uniswap.org/blog/uni/
-Litecoin,LTC,20,47.59690083891181,-2.30005305,428028547.5153251,3365556333.4846177,https://s2.coinmarketcap.com/static/img/coins/64x64/2.png,https://litecoin.org/
-FTX Token,FTT,21,23.951748964940386,-3.64132587,68759412.16510665,3241834497.6079774,https://s2.coinmarketcap.com/static/img/coins/64x64/4195.png,https://ftx.com/
-Cronos,CRO,22,0.110977703220653,-2.18229403,22058921.86692093,2803631235.9700694,https://s2.coinmarketcap.com/static/img/coins/64x64/3635.png,https://www.crypto.com/en/chain
-Chainlink,LINK,23,5.936099555541953,-4.07584104,359272571.46148616,2772751927.460139,https://s2.coinmarketcap.com/static/img/coins/64x64/1975.png,https://chain.link/
-Stellar,XLM,24,0.10155892984795989,-0.79561547,158209220.30505878,2548771658.756713,https://s2.coinmarketcap.com/static/img/coins/64x64/512.png,https://www.stellar.org
-NEAR Protocol,NEAR,25,3.166059102692768,-4.23674181,197705589.76991072,2319338412.9862156,https://s2.coinmarketcap.com/static/img/coins/64x64/6535.png,https://near.org/
-Cosmos,ATOM,26,7.704100687889345,-5.48122092,222860687.3614072,2206225602.108776,https://s2.coinmarketcap.com/static/img/coins/64x64/3794.png,https://cosmos.network/
-Monero,XMR,27,119.87783558428752,-6.32775472,102167819.42361721,2175435690.700051,https://s2.coinmarketcap.com/static/img/coins/64x64/328.png,https://www.getmonero.org/
-Algorand,ALGO,28,0.29974646568513247,-1.13835775,84538051.22557664,2082549229.407862,https://s2.coinmarketcap.com/static/img/coins/64x64/4030.png,http://algorand.foundation
-Ethereum Classic,ETC,29,13.81157148265444,-3.44638582,269847658.459366,1875450249.756401,https://s2.coinmarketcap.com/static/img/coins/64x64/1321.png,https://ethereumclassic.org/
-Bitcoin Cash,BCH,30,98.04047666414397,-2.28101444,1199740925.138233,1874167487.5369003,https://s2.coinmarketcap.com/static/img/coins/64x64/1831.png,http://bch.info
-VeChain,VET,31,0.021472548839082128,-2.79372089,88411966.3651492,1556999132.83834,https://s2.coinmarketcap.com/static/img/coins/64x64/3077.png,https://www.vechain.org/
-Internet Computer,ICP,32,6.19346053883822,-5.34999626,89917869.55487557,1536050995.9184227,https://s2.coinmarketcap.com/static/img/coins/64x64/8916.png,https://dfinity.org
-Flow,FLOW,33,1.4449993485931092,-3.35467307,27427726.36543827,1497308325.0121799,https://s2.coinmarketcap.com/static/img/coins/64x64/4558.png,https://flow.com
-Decentraland,MANA,34,0.7826671231704231,-4.38741611,231223645.5818209,1447320990.144829,https://s2.coinmarketcap.com/static/img/coins/64x64/1966.png,https://decentraland.org/
-The Sandbox,SAND,35,1.0927601206053787,-4.05841566,352435597.3008932,1375376388.3146732,https://s2.coinmarketcap.com/static/img/coins/64x64/6210.png,https://www.sandbox.game/en/
-ApeCoin,APE,36,4.359449559144915,0.13154387,443499901.7775338,1305791375.7626252,https://s2.coinmarketcap.com/static/img/coins/64x64/18876.png,http://apecoin.com/
-Tezos,XTZ,37,1.4474772326305605,-4.95208763,73667746.36606865,1304675735.9629974,https://s2.coinmarketcap.com/static/img/coins/64x64/2011.png,https://www.tezos.com/
-Hedera,HBAR,38,0.06019115429871344,-2.58003121,21478090.32828131,1269117040.7064621,https://s2.coinmarketcap.com/static/img/coins/64x64/4642.png,https://www.hedera.com/
-TrueUSD,TUSD,39,1.0006682142786703,-0.02340536,68124146.4716922,1223606509.935758,https://s2.coinmarketcap.com/static/img/coins/64x64/2563.png,https://www.trueusd.com/
-Filecoin,FIL,40,5.1585504500548325,-1.86305531,122752863.35608721,1204241988.238915,https://s2.coinmarketcap.com/static/img/coins/64x64/2280.png,https://filecoin.io/
-Elrond,EGLD,41,49.209085283635154,-2.27296446,55966361.92074993,1110537774.182192,https://s2.coinmarketcap.com/static/img/coins/64x64/6892.png,https://elrond.com/
-Theta Network,THETA,42,1.0905216395994457,-4.80492977,44351649.8711065,1090521639.5994458,https://s2.coinmarketcap.com/static/img/coins/64x64/2416.png,https://www.thetatoken.org/
-Axie Infinity,AXS,43,12.802912842781266,-4.62397768,92016551.04387224,1055928860.9029992,https://s2.coinmarketcap.com/static/img/coins/64x64/6783.png,https://axieinfinity.com/
-Helium,HNT,44,8.55007211528751,-2.76846305,7963111.53512345,1040792257.7874333,https://s2.coinmarketcap.com/static/img/coins/64x64/5665.png,https://www.helium.com/
-Aave,AAVE,45,72.93095806928176,3.84525909,338962118.5439632,1014890709.579263,https://s2.coinmarketcap.com/static/img/coins/64x64/7278.png,https://aave.com/
-Quant,QNT,46,82.00921289451155,-2.31128824,74527453.67396376,990075740.8616595,https://s2.coinmarketcap.com/static/img/coins/64x64/3155.png,https://quant.network/
-Bitcoin SV,BSV,47,49.99123267567197,-2.16128605,43818373.2583755,955482512.3276552,https://s2.coinmarketcap.com/static/img/coins/64x64/3602.png,https://bitcoinsv.com/
-Pax Dollar,USDP,48,0.9991586432490912,-0.38882288,5136160.73864173,944847317.0383892,https://s2.coinmarketcap.com/static/img/coins/64x64/3330.png,https://www.paxos.com/usdp/
-EOS,EOS,49,0.9109269047004448,-3.68414261,192210627.34103164,905772476.0150383,https://s2.coinmarketcap.com/static/img/coins/64x64/1765.png,https://eosnetwork.com/
-KuCoin Token,KCS,50,8.793748238422342,-0.92009295,3245525.5139038,865127728.9252975,https://s2.coinmarketcap.com/static/img/coins/64x64/2087.png,https://www.kucoin.com/
-Maker,MKR,51,818.8429177029795,-6.05894578,152397867.99009934,800526250.7338562,https://s2.coinmarketcap.com/static/img/coins/64x64/1518.png,https://makerdao.com/
-Zcash,ZEC,52,52.09523783077087,-4.65132944,52515152.34966073,771626848.4637035,https://s2.coinmarketcap.com/static/img/coins/64x64/1437.png,https://z.cash/
-BitTorrent-New,BTT,53,8.166278751346509e-07,-1.20493775,39582932.4812904,763369548.7665411,https://s2.coinmarketcap.com/static/img/coins/64x64/16086.png,https://bt.io/
-Neutrino USD,USDN,54,0.9910191356515535,-0.12517712,3608908.45218394,750022830.8886245,https://s2.coinmarketcap.com/static/img/coins/64x64/5068.png,https://neutrino.at/
-OKB,OKB,55,12.323560772670236,1.27075559,10321350.84783038,739413646.3602141,https://s2.coinmarketcap.com/static/img/coins/64x64/3897.png,https://www.okx.com/
-USDD,USDD,56,0.996366364091412,0.01916593,89088536.77343415,720693476.6726499,https://s2.coinmarketcap.com/static/img/coins/64x64/19891.png,https://usdd.io/
-eCash,XEC,57,3.734458575392372e-05,-2.40293181,8056407.23147199,713776111.3764253,https://s2.coinmarketcap.com/static/img/coins/64x64/10791.png,https://e.cash/
-IOTA,MIOTA,58,0.2565346306301034,-2.37357685,13110671.57785909,713045774.4745917,https://s2.coinmarketcap.com/static/img/coins/64x64/1720.png,https://www.iota.org/
-Huobi Token,HT,59,4.43534237565269,1.68346349,30377344.29920446,684856879.5880932,https://s2.coinmarketcap.com/static/img/coins/64x64/2502.png,https://www.huobiwallet.com
-THORChain,RUNE,60,1.9571869642068778,-6.1218276,120382458.07448107,647218362.8626417,https://s2.coinmarketcap.com/static/img/coins/64x64/4157.png,https://thorchain.org/
-Klaytn,KLAY,61,0.21717496509487338,-0.42680002,43487726.01302826,633356492.6429,https://s2.coinmarketcap.com/static/img/coins/64x64/4256.png,https://www.klaytn.foundation/
-The Graph,GRT,62,0.08937277094054981,-3.00267075,52198709.5602087,616672119.4897937,https://s2.coinmarketcap.com/static/img/coins/64x64/6719.png,https://thegraph.com
-Fantom,FTM,63,0.23016032018798652,-6.62528166,155038707.42549467,585759458.6741142,https://s2.coinmarketcap.com/static/img/coins/64x64/3513.png,https://fantom.foundation/
-Chiliz,CHZ,64,0.0975073023479139,-5.22766805,90490752.378392,585080746.9817568,https://s2.coinmarketcap.com/static/img/coins/64x64/4066.png,https://www.chiliz.com/
-PAX Gold,PAXG,65,1737.728523904822,0.05236662,28827414.90304885,579811510.6440837,https://s2.coinmarketcap.com/static/img/coins/64x64/4705.png,https://www.paxos.com/paxgold/
-Neo,NEO,66,8.099135378076797,-3.34671856,40508612.69327949,571303541.6802803,https://s2.coinmarketcap.com/static/img/coins/64x64/1376.png,https://neo.org/
-Basic Attention Token,BAT,67,0.36118505097663833,-5.96843713,68850907.99609523,540943801.74747,https://s2.coinmarketcap.com/static/img/coins/64x64/1697.png,https://basicattentiontoken.org/
-Curve DAO Token,CRV,68,0.9766728616707269,7.35188945,183393270.6250895,524836757.08716774,https://s2.coinmarketcap.com/static/img/coins/64x64/6538.png,https://guides.curve.fi/everything-you-need-to-know-about-crv/
-STEPN,GMT,69,0.8363309433859093,-3.51932061,358653907.2975548,501798566.0315456,https://s2.coinmarketcap.com/static/img/coins/64x64/18069.png,https://www.stepn.com/
-Waves,WAVES,70,4.608125238784107,-5.54573909,192612673.5353757,501283273.1930264,https://s2.coinmarketcap.com/static/img/coins/64x64/1274.png,https://waves.tech/
-Stacks,STX,71,0.36000841008700935,-2.85934819,12361031.53327068,476174346.19443625,https://s2.coinmarketcap.com/static/img/coins/64x64/4847.png,https://stacks.co
-Loopring,LRC,72,0.3566942732272467,-7.99130832,73194365.07088912,474434961.4784297,https://s2.coinmarketcap.com/static/img/coins/64x64/1934.png,https://loopring.org
-Zilliqa,ZIL,73,0.03518684669744266,-6.38814321,191641386.79640016,458838512.74973065,https://s2.coinmarketcap.com/static/img/coins/64x64/2469.png,https://www.zilliqa.com/
-Dash,DASH,74,40.60306313420088,-2.19790711,118897710.96591856,439183268.16038865,https://s2.coinmarketcap.com/static/img/coins/64x64/131.png,https://www.dash.org/
-PancakeSwap,CAKE,75,2.925965776655733,-2.43304287,48685267.74147999,426928035.2859052,https://s2.coinmarketcap.com/static/img/coins/64x64/7186.png,https://pancakeswap.finance/
-Fei USD,FEI,76,0.9830245941085418,-0.27991937,2836676.46410664,417781695.1686206,https://s2.coinmarketcap.com/static/img/coins/64x64/8642.png,https://fei.money/
-Enjin Coin,ENJ,77,0.46200846060265427,-5.30126002,68030664.17107213,413682355.09545255,https://s2.coinmarketcap.com/static/img/coins/64x64/2130.png,https://enjin.io/
-Kusama,KSM,78,47.21435812319705,-2.23538711,31254917.84211563,399910243.0141665,https://s2.coinmarketcap.com/static/img/coins/64x64/5034.png,https://kusama.network/
-Arweave,AR,79,11.572331369286545,4.69165123,29922369.00129803,386454545.9502447,https://s2.coinmarketcap.com/static/img/coins/64x64/5632.png,https://www.arweave.org
-TerraClassicUSD,USTC,80,0.03785024851224053,-13.85808835,23420134.44627088,371517318.2314313,https://s2.coinmarketcap.com/static/img/coins/64x64/7129.png,https://terra.money
-Mina,MINA,81,0.6264232463007087,-6.08795697,23706422.90838728,367309456.2977746,https://s2.coinmarketcap.com/static/img/coins/64x64/8646.png,https://minaprotocol.com/
-Amp,AMP,82,0.008573672341404555,-3.27128628,9332516.75170128,362046482.27317685,https://s2.coinmarketcap.com/static/img/coins/64x64/6945.png,https://amptoken.org
-Celo,CELO,83,0.8013952923094072,-5.25791458,20078869.14135568,361296215.5613935,https://s2.coinmarketcap.com/static/img/coins/64x64/5567.png,https://celo.org/
-Decred,DCR,84,25.4623249779167,18.28671577,13812093.97834642,361062396.7460682,https://s2.coinmarketcap.com/static/img/coins/64x64/1168.png,https://decred.org/
-Convex Finance,CVX,85,5.528722788233498,1.41810609,12141076.87453111,357559251.2612946,https://s2.coinmarketcap.com/static/img/coins/64x64/9903.png,https://www.convexfinance.com/
-Kava,KAVA,86,1.570151425484709,-5.92295824,13036805.75352931,355305177.4997006,https://s2.coinmarketcap.com/static/img/coins/64x64/4846.png,https://www.kava.io/
-NEM,XEM,87,0.03716117567648088,-3.52865956,10068348.09400262,334450581.0511668,https://s2.coinmarketcap.com/static/img/coins/64x64/873.png,http://nem.io
-Holo,HOT,88,0.001889286829439697,-3.76749734,20669459.94676281,327467379.96084607,https://s2.coinmarketcap.com/static/img/coins/64x64/2682.png,https://holochain.org/
-Compound,COMP,89,45.513034456680145,-6.07110878,111962525.54947434,325777656.4050907,https://s2.coinmarketcap.com/static/img/coins/64x64/5692.png,https://compound.finance/governance/comp
-Nexo,NEXO,90,0.5807763151598438,-4.1189853,10752746.41994134,325234742.878052,https://s2.coinmarketcap.com/static/img/coins/64x64/2694.png,http://nexo.io
-XDC Network,XDC,91,0.026377232734405613,-0.61722375,4238829.71967883,324572183.75474524,https://s2.coinmarketcap.com/static/img/coins/64x64/2634.png,https://www.xdc.org/
-Gala,GALA,92,0.04643491097762609,-5.26189236,222900201.32867876,323985913.2932688,https://s2.coinmarketcap.com/static/img/coins/64x64/7080.png,https://gala.games/
-1inch Network,1INCH,93,0.5646473613007051,-3.60327724,36029074.02696245,315678305.48549503,https://s2.coinmarketcap.com/static/img/coins/64x64/8104.png,https://1inch.io/
-GateToken,GT,94,3.81516291756668,-1.10398372,1961527.96482162,298965401.7442188,https://s2.coinmarketcap.com/static/img/coins/64x64/4269.png,https://gatechain.io/
-Lido DAO,LDO,95,0.9051136998055032,43.04806425,86777549.03047526,283256376.8179222,https://s2.coinmarketcap.com/static/img/coins/64x64/8000.png,https://lido.fi/
-Kadena,KDA,96,1.5230421496294784,1.54485571,19690160.72216056,281461917.5419687,https://s2.coinmarketcap.com/static/img/coins/64x64/5647.png,http://kadena.io/
-Symbol,XYM,97,0.04976801768268006,-1.84886124,1996391.20360107,277827968.2197168,https://s2.coinmarketcap.com/static/img/coins/64x64/8677.png,https://docs.symbol.dev/
-Gnosis,GNO,98,106.33558202924112,-3.06561779,4407498.25190939,274301991.37564605,https://s2.coinmarketcap.com/static/img/coins/64x64/1659.png,https://gnosis.io/
-Serum,SRM,99,1.032722635367092,4.53364196,191504574.00514883,271858728.3160178,https://s2.coinmarketcap.com/static/img/coins/64x64/6187.png,https://projectserum.com/
-Qtum,QTUM,100,2.5960292574237678,-5.06370477,56310765.57607084,270620989.2226908,https://s2.coinmarketcap.com/static/img/coins/64x64/1684.png,https://qtum.org/
+name,symbol,rank,price,percent_change,volume,market_cap,logo,url
+Bitcoin,BTC,1,23861.02815555255,0.0606348,37139779844.5378,455911758249.0727,https://s2.coinmarketcap.com/static/img/coins/64x64/1.png,https://bitcoin.org/
+Ethereum,ETH,2,1719.0302532910798,-0.58548102,23810415763.850872,209289688605.2773,https://s2.coinmarketcap.com/static/img/coins/64x64/1027.png,https://www.ethereum.org/
+Tether,USDT,3,1.000226979454865,0.00117747,73024701101.70117,65948943366.206436,https://s2.coinmarketcap.com/static/img/coins/64x64/825.png,https://tether.to
+USD Coin,USDC,4,1.00022815038917,0.03064264,8854783293.599293,54635320892.66765,https://s2.coinmarketcap.com/static/img/coins/64x64/3408.png,https://www.centre.io/usdc
+BNB,BNB,5,296.37348826139686,7.33332532,2390540374.6463923,47816086855.783035,https://s2.coinmarketcap.com/static/img/coins/64x64/1839.png,https://www.binance.com/
+Binance USD,BUSD,6,1.0007145885894684,0.22033955,9039363705.276636,17838252482.074352,https://s2.coinmarketcap.com/static/img/coins/64x64/4687.png,https://www.binance.com/en/busd
+XRP,XRP,7,0.3660936265114326,-1.32327001,1830228480.786561,17698101234.01891,https://s2.coinmarketcap.com/static/img/coins/64x64/52.png,https://xrpl.org/
+Cardano,ADA,8,0.5231526095747693,2.03317524,1658267675.0099645,17650660812.534782,https://s2.coinmarketcap.com/static/img/coins/64x64/2010.png,https://www.cardano.org
+Solana,SOL,9,42.104331475331456,-0.31199588,2207817065.001049,14569258081.463581,https://s2.coinmarketcap.com/static/img/coins/64x64/5426.png,https://solana.com
+Dogecoin,DOGE,10,0.06875438169131241,-1.37043915,730935359.4751521,9121696367.953062,https://s2.coinmarketcap.com/static/img/coins/64x64/74.png,http://dogecoin.com/
+Polkadot,DOT,11,8.191641783770423,3.57047467,839673093.4227642,8089895981.189829,https://s2.coinmarketcap.com/static/img/coins/64x64/6636.png,https://polkadot.network/
+Dai,DAI,13,0.999220358031199,-0.06442964,749178343.1087288,7478156147.769089,https://s2.coinmarketcap.com/static/img/coins/64x64/4943.png,http://www.makerdao.com/
+Polygon,MATIC,12,0.9309393410872385,-1.72934098,1614959629.8969839,7479915088.107809,https://s2.coinmarketcap.com/static/img/coins/64x64/3890.png,https://polygon.technology/
+Avalanche,AVAX,14,24.46756155770362,1.43341921,956679135.3169271,6950120099.106826,https://s2.coinmarketcap.com/static/img/coins/64x64/5805.png,https://avax.network/
+Uniswap,UNI,15,8.964097777011045,-3.59970586,457878782.22325623,6676770936.5358,https://s2.coinmarketcap.com/static/img/coins/64x64/7083.png,https://uniswap.org/blog/uni/
+Shiba Inu,SHIB,16,1.1698648620046674e-05,-1.77056098,616659118.8003043,6423298369.744552,https://s2.coinmarketcap.com/static/img/coins/64x64/5994.png,https://shibatoken.com/
+TRON,TRX,17,0.06883357468113226,-1.36864176,703925699.7807477,6361999083.525254,https://s2.coinmarketcap.com/static/img/coins/64x64/1958.png,https://tron.network/
+Wrapped Bitcoin,WBTC,18,23874.89519206128,0.33981069,341781611.77079153,5653815327.570367,https://s2.coinmarketcap.com/static/img/coins/64x64/3717.png,https://wbtc.network
+Ethereum Classic,ETC,19,39.007332245823974,-5.12418495,4837451560.202741,5307381589.04789,https://s2.coinmarketcap.com/static/img/coins/64x64/1321.png,https://ethereumclassic.org/
+UNUS SED LEO,LEO,20,5.132828010922367,-3.36054875,3469426.21515899,4896482479.599077,https://s2.coinmarketcap.com/static/img/coins/64x64/3957.png,https://www.bitfinex.com/
+Litecoin,LTC,21,61.0842575663864,-3.17659106,700874320.1705694,4326384551.977266,https://s2.coinmarketcap.com/static/img/coins/64x64/2.png,https://litecoin.org/
+FTX Token,FTT,22,31.007867869604816,2.32345529,107052567.62553036,4181206406.83875,https://s2.coinmarketcap.com/static/img/coins/64x64/4195.png,https://ftx.com/
+Chainlink,LINK,23,7.920670383720208,11.01063604,1010499537.3310803,3715586242.9694123,https://s2.coinmarketcap.com/static/img/coins/64x64/1975.png,https://chain.link/
+Cronos,CRO,24,0.13516780194711014,-0.35941691,26029878.27723155,3414746031.307388,https://s2.coinmarketcap.com/static/img/coins/64x64/3635.png,https://www.crypto.com/en/chain
+NEAR Protocol,NEAR,25,4.333483813829569,-0.42596784,477424495.55936587,3240290789.63349,https://s2.coinmarketcap.com/static/img/coins/64x64/6535.png,https://near.org/
+Cosmos,ATOM,26,10.646945264135562,-0.95854171,421289555.5633212,3048968877.433244,https://s2.coinmarketcap.com/static/img/coins/64x64/3794.png,https://cosmos.network/
+Stellar,XLM,27,0.11654616340857976,1.04087157,219708509.2996161,2931525415.2167606,https://s2.coinmarketcap.com/static/img/coins/64x64/512.png,https://www.stellar.org
+Monero,XMR,28,161.18260488977205,-1.75162951,214751859.65582287,2926115838.9561653,https://s2.coinmarketcap.com/static/img/coins/64x64/328.png,https://www.getmonero.org/
+Bitcoin Cash,BCH,29,151.7710692719305,-2.49912796,965700354.6809579,2903553194.763327,https://s2.coinmarketcap.com/static/img/coins/64x64/1831.png,http://bch.info
+Algorand,ALGO,30,0.337642257284277,-0.05302929,160515088.8716468,2346336861.5100718,https://s2.coinmarketcap.com/static/img/coins/64x64/4030.png,http://algorand.foundation
+ApeCoin,APE,31,6.668952847887838,-5.03848307,615919688.6316181,2046534905.1955802,https://s2.coinmarketcap.com/static/img/coins/64x64/18876.png,http://apecoin.com/
+VeChain,VET,32,0.026817864724873155,2.13575573,152197591.43057856,1944594115.6833947,https://s2.coinmarketcap.com/static/img/coins/64x64/3077.png,https://www.vechain.org/
+Flow,FLOW,33,1.8649802192608433,-3.05508405,67311176.32585293,1932492503.1980858,https://s2.coinmarketcap.com/static/img/coins/64x64/4558.png,https://flow.com
+Decentraland,MANA,34,0.9673576946513557,-1.0895105,394899433.12912416,1791971504.8331165,https://s2.coinmarketcap.com/static/img/coins/64x64/1966.png,https://decentraland.org/
+Internet Computer,ICP,35,7.121393628458497,-2.15109783,146153371.6823402,1777838101.5884748,https://s2.coinmarketcap.com/static/img/coins/64x64/8916.png,https://dfinity.org
+The Sandbox,SAND,36,1.330262040445874,-2.43401628,536106009.1078057,1708136020.5416949,https://s2.coinmarketcap.com/static/img/coins/64x64/6210.png,https://www.sandbox.game/en/
+Tezos,XTZ,37,1.707333943198919,-0.54799955,63242835.72402018,1542245107.7849536,https://s2.coinmarketcap.com/static/img/coins/64x64/2011.png,https://www.tezos.com/
+Axie Infinity,AXS,38,18.24957485064503,7.2374043,525572710.2296689,1511002519.70884,https://s2.coinmarketcap.com/static/img/coins/64x64/6783.png,https://axieinfinity.com/
+Hedera,HBAR,39,0.07136556077157981,-0.05284424,37013654.68806843,1504726904.6428716,https://s2.coinmarketcap.com/static/img/coins/64x64/4642.png,https://www.hedera.com/
+Filecoin,FIL,40,5.92001817127238,-0.17060152,328743424.1167432,1456080713.3848033,https://s2.coinmarketcap.com/static/img/coins/64x64/2280.png,https://filecoin.io/
+Theta Network,THETA,41,1.4299088990962623,6.5557951,127942571.10125428,1429908899.0962622,https://s2.coinmarketcap.com/static/img/coins/64x64/2416.png,https://www.thetatoken.org/
+Aave,AAVE,42,96.1716367365986,-4.04653308,345655179.49145675,1343561527.4378986,https://s2.coinmarketcap.com/static/img/coins/64x64/7278.png,https://aave.com/
+Quant,QNT,43,107.46378574197892,5.25052118,89832618.11204459,1297382129.7510471,https://s2.coinmarketcap.com/static/img/coins/64x64/3155.png,https://quant.network/
+EOS,EOS,44,1.2876392640732233,-2.27635592,381987729.51789546,1282136234.8903484,https://s2.coinmarketcap.com/static/img/coins/64x64/1765.png,https://eosnetwork.com/
+Elrond,EGLD,45,55.678335590085524,-1.3370078,88591646.17769957,1276918774.4861495,https://s2.coinmarketcap.com/static/img/coins/64x64/6892.png,https://elrond.com/
+Bitcoin SV,BSV,46,65.23703457499215,4.04814911,140402095.80251175,1247822709.2928405,https://s2.coinmarketcap.com/static/img/coins/64x64/3602.png,https://bitcoinsv.com/
+TrueUSD,TUSD,47,0.9998387521738074,-0.0021269,1150001966.4381573,1188567131.2714772,https://s2.coinmarketcap.com/static/img/coins/64x64/2563.png,https://tusd.io/
+Helium,HNT,48,9.071638073348272,-1.79933635,13193415.31566044,1113371651.9135044,https://s2.coinmarketcap.com/static/img/coins/64x64/5665.png,https://www.helium.com/
+OKB,OKB,49,18.355756460591824,7.54364924,34563749.85020722,1101345387.6355095,https://s2.coinmarketcap.com/static/img/coins/64x64/3897.png,https://www.okx.com/
+Maker,MKR,50,1106.4649024356438,-0.31581425,326150044.2132544,1081714429.9179237,https://s2.coinmarketcap.com/static/img/coins/64x64/1518.png,https://makerdao.com/
+KuCoin Token,KCS,51,10.218160711423572,-1.37650082,4165223.00899067,1005261229.9546041,https://s2.coinmarketcap.com/static/img/coins/64x64/2087.png,https://www.kucoin.com/
+Zcash,ZEC,52,63.522434587707544,-1.12785974,104147495.95413691,948198190.045062,https://s2.coinmarketcap.com/static/img/coins/64x64/1437.png,https://z.cash/
+Pax Dollar,USDP,53,0.9985914038025652,-0.14052377,5505611.91480637,944310911.0604299,https://s2.coinmarketcap.com/static/img/coins/64x64/3330.png,https://www.paxos.com/usdp/
+THORChain,RUNE,54,2.700596204977588,-5.95856156,210265234.5272822,893054923.4712275,https://s2.coinmarketcap.com/static/img/coins/64x64/4157.png,https://thorchain.org/
+BitTorrent-New,BTT,55,9.539460502715163e-07,-0.1591212,46535657.02123888,891732192.98119,https://s2.coinmarketcap.com/static/img/coins/64x64/16086.png,https://bt.io/
+Klaytn,KLAY,56,0.30054758859472236,12.15254984,159835743.6954677,890445578.7087806,https://s2.coinmarketcap.com/static/img/coins/64x64/4256.png,https://www.klaytn.foundation/
+The Graph,GRT,57,0.12612246931595894,9.63093615,206301364.39108205,870245038.2801167,https://s2.coinmarketcap.com/static/img/coins/64x64/6719.png,https://thegraph.com
+IOTA,MIOTA,58,0.31088075865458464,-0.2425596,21002634.10196062,864102483.0824324,https://s2.coinmarketcap.com/static/img/coins/64x64/1720.png,https://www.iota.org/
+eCash,XEC,59,4.486736744337466e-05,2.04888034,45893729.75930279,858206108.4518356,https://s2.coinmarketcap.com/static/img/coins/64x64/10791.png,https://e.cash/
+Fantom,FTM,60,0.33326930643543085,-0.84378527,274381131.39470905,848172475.4765308,https://s2.coinmarketcap.com/static/img/coins/64x64/3513.png,https://fantom.foundation/
+Neo,NEO,61,11.340305823045464,3.11945032,133242633.44458441,799931915.9401199,https://s2.coinmarketcap.com/static/img/coins/64x64/1376.png,https://neo.org/
+Chiliz,CHZ,62,0.1300559238059908,9.03865738,281653458.83907205,780385938.5635039,https://s2.coinmarketcap.com/static/img/coins/64x64/4066.png,https://www.chiliz.com/
+Curve DAO Token,CRV,63,1.4401983216982759,-4.66443357,367984533.2191503,746926943.096403,https://s2.coinmarketcap.com/static/img/coins/64x64/6538.png,https://guides.curve.fi/everything-you-need-to-know-about-crv/
+Neutrino USD,USDN,64,0.9904876491870884,-0.07571222,3488856.63251267,729308852.1379077,https://s2.coinmarketcap.com/static/img/coins/64x64/5068.png,https://neutrino.at/
+Lido DAO,LDO,66,2.3158464442415596,6.5803704,270082981.0697825,724746817.11645,https://s2.coinmarketcap.com/static/img/coins/64x64/8000.png,https://lido.fi/
+USDD,USDD,65,0.9993653347912157,-0.03764224,35038490.90462349,724871700.5971043,https://s2.coinmarketcap.com/static/img/coins/64x64/19891.png,https://usdd.io/
+Huobi Token,HT,67,4.42836043167055,-1.56373926,15256383.17629384,681616010.9229896,https://s2.coinmarketcap.com/static/img/coins/64x64/2502.png,https://www.huobiwallet.com
+Waves,WAVES,68,5.601586966936224,-0.96465427,370436888.0667495,610134341.5270154,https://s2.coinmarketcap.com/static/img/coins/64x64/1274.png,https://waves.tech/
+Basic Attention Token,BAT,69,0.40409426029458173,-1.02085302,68989095.38536286,604592044.1793032,https://s2.coinmarketcap.com/static/img/coins/64x64/1697.png,https://basicattentiontoken.org/
+PancakeSwap,CAKE,70,4.050324950590976,12.98216826,178602742.71196645,599506422.5300325,https://s2.coinmarketcap.com/static/img/coins/64x64/7186.png,https://pancakeswap.finance/
+PAX Gold,PAXG,71,1760.9853154475713,0.62164455,23906576.54801676,598184109.4110162,https://s2.coinmarketcap.com/static/img/coins/64x64/4705.png,https://www.paxos.com/paxgold/
+Bitcoin Gold,BTG,72,33.89285093186908,22.41089429,337079002.568123,593596801.4341226,https://s2.coinmarketcap.com/static/img/coins/64x64/2083.png,https://bitcoingold.org/
+STEPN,GMT,73,0.977783439014759,-4.61669858,387221226.89614755,586670063.4088553,https://s2.coinmarketcap.com/static/img/coins/64x64/18069.png,https://www.stepn.com/
+Stacks,STX,74,0.43221764506922844,0.70952679,22269914.66128673,573061331.4430416,https://s2.coinmarketcap.com/static/img/coins/64x64/4847.png,https://stacks.co
+Loopring,LRC,75,0.42284382427559697,-1.45498268,130880588.58579493,562419720.5817674,https://s2.coinmarketcap.com/static/img/coins/64x64/1934.png,https://loopring.org
+Zilliqa,ZIL,76,0.042406748991100994,-1.36331677,306604890.25013894,555865921.8464433,https://s2.coinmarketcap.com/static/img/coins/64x64/2469.png,https://www.zilliqa.com/
+Dash,DASH,77,50.8916289162181,-2.84929132,108070529.10383356,551803004.7222898,https://s2.coinmarketcap.com/static/img/coins/64x64/131.png,https://www.dash.org/
+Enjin Coin,ENJ,78,0.6051592489914928,-1.65490604,114529633.38995327,542464723.9072709,https://s2.coinmarketcap.com/static/img/coins/64x64/2130.png,https://enjin.io/
+Kusama,KSM,79,63.50979171399324,-3.9640832,61853548.05656745,537934163.4138122,https://s2.coinmarketcap.com/static/img/coins/64x64/5034.png,https://kusama.network/
+Convex Finance,CVX,80,7.783859277297501,-2.57557142,21903057.17693858,514059673.9905273,https://s2.coinmarketcap.com/static/img/coins/64x64/9903.png,https://www.convexfinance.com/
+Qtum,QTUM,81,4.742029154196265,8.40016212,336984668.7696093,494431992.1218476,https://s2.coinmarketcap.com/static/img/coins/64x64/1684.png,https://qtum.org/
+Mina,MINA,82,0.7605143215847229,0.62962447,24400769.4810436,463396469.9476597,https://s2.coinmarketcap.com/static/img/coins/64x64/8646.png,https://minaprotocol.com/
+Synthetix,SNX,83,3.9698315002718383,-6.81790318,164698257.6868855,455901535.29046357,https://s2.coinmarketcap.com/static/img/coins/64x64/2586.png,https://www.synthetix.io/
+NEM,XEM,84,0.04971656912712359,-0.0064456,19190898.73972861,447449122.09439576,https://s2.coinmarketcap.com/static/img/coins/64x64/873.png,http://nem.io
+Kava,KAVA,85,1.882982189629973,-4.80361252,38018755.97443547,445260010.50392073,https://s2.coinmarketcap.com/static/img/coins/64x64/4846.png,https://www.kava.io/
+Arweave,AR,86,13.334533973154816,-5.76943948,63480191.14413858,445302775.00784713,https://s2.coinmarketcap.com/static/img/coins/64x64/5632.png,https://www.arweave.org
+Celo,CELO,87,0.9852033458468971,0.31703715,33959376.60160183,444163128.7690162,https://s2.coinmarketcap.com/static/img/coins/64x64/5567.png,https://celo.org/
+1inch Network,1INCH,88,0.7626108197314909,-1.66434274,103134487.12103768,435258867.7511432,https://s2.coinmarketcap.com/static/img/coins/64x64/8104.png,https://1inch.io/
+Gnosis,GNO,89,163.9534523976822,-0.30383948,5040698.31011746,422932358.36363226,https://s2.coinmarketcap.com/static/img/coins/64x64/1659.png,https://gnosis.io/
+Fei USD,FEI,90,0.9831836582663702,-0.66886347,3596468.36121044,417849296.8277208,https://s2.coinmarketcap.com/static/img/coins/64x64/8642.png,https://fei.money/
+Compound,COMP,91,56.98070703435601,-1.22093908,139791484.8053293,409677361.2334985,https://s2.coinmarketcap.com/static/img/coins/64x64/5692.png,https://compound.finance/governance/comp
+Trust Wallet Token,TWT,93,0.9644279211825729,-2.11899436,35023941.62288159,401828796.9179269,https://s2.coinmarketcap.com/static/img/coins/64x64/5964.png,https://trustwallet.com/
+Oasis Network,ROSE,92,0.07996937008414058,25.49882012,293865863.95885426,402036669.51488644,https://s2.coinmarketcap.com/static/img/coins/64x64/7653.png,https://oasisprotocol.org/
+Nexo,NEXO,94,0.7134353810977111,-0.71569129,12863553.18016134,399523821.2625074,https://s2.coinmarketcap.com/static/img/coins/64x64/2694.png,http://nexo.io
+Decred,DCR,95,27.93723774074437,5.34420479,2310174.35637623,397344391.39393175,https://s2.coinmarketcap.com/static/img/coins/64x64/1168.png,https://decred.org/
+Ravencoin,RVN,96,0.03791314727086099,12.77073582,142958298.75084883,397075386.18043566,https://s2.coinmarketcap.com/static/img/coins/64x64/2577.png,https://ravencoin.org/
+Gala,GALA,97,0.05483652179231005,3.68016406,478927249.06253487,382605677.9406381,https://s2.coinmarketcap.com/static/img/coins/64x64/7080.png,https://gala.games/
+Holo,HOT,98,0.0021819005793992574,0.29284103,31923684.36785732,378217135.6819182,https://s2.coinmarketcap.com/static/img/coins/64x64/2682.png,https://holochain.org/
+Amp,AMP,99,0.00884126217572248,-0.90990848,7133371.7532439,373346186.10475534,https://s2.coinmarketcap.com/static/img/coins/64x64/6945.png,https://amptoken.org
+Optimism,OP,100,1.5718126441307796,10.06717642,834958702.9682944,368980446.72421473,https://s2.coinmarketcap.com/static/img/coins/64x64/11840.png,https://www.optimism.io/

@@ -12,16 +12,19 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 
 from pathlib import Path
 import dj_database_url
+import environ
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
+env = environ.Env()
+env.read_env((BASE_DIR / '.env') or None)
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-ow*w_)5721n7(u!ioo91alxgx3de42j66%il&burxx_b7yvuvb'
+SECRET_KEY = env('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -91,7 +94,7 @@ WSGI_APPLICATION = 'token_migration_backend.wsgi.application'
 
 DATABASES = {}
 
-if not DEBUG:
+if DEBUG:
     DATABASES['default'] = {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': BASE_DIR / 'db.sqlite3'
@@ -150,9 +153,18 @@ MEDIA_ROOT = BASE_DIR / 'mediafiles'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
-AWS_ACCESS_KEY_ID = 'AKIA355VVZK6ZQST3JIY'
-AWS_SECRET_ACCESS_KEY = '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'
+AWS_ACCESS_KEY_ID = env('AWS_ACCESS_KEY_ID')
+AWS_SECRET_ACCESS_KEY = env('AWS_SECRET_ACCESS_KEY')
 AWS_STORAGE_BUCKET_NAME = 'tokenmigration'
 AWS_S3_FILE_OVERWRITE = True
 AWS_DEFAULT_ACL = None
 AWS_S3_REGION_NAME = "eu-west-2"
+
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+RECIPIENT_MAIL = env('RECIPIENT_MAIL')
+DEFAULT_FROM_EMAIL = env('DEFAULT_FROM_EMAIL')
+EMAIL_HOST_USER = env('EMAIL_HOST_USER')
+EMAIL_HOST_PASSWORD = env('EMAIL_HOST_PASSWORD')
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
